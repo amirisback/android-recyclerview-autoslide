@@ -11,5 +11,6 @@ package com.qomunal.opensource.androidresearch.model
 
 
 data class MainModel(
-    val tag: String
+    var img: Int? = 0,
+
 )
